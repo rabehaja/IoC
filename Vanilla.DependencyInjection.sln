@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vanilla.DependencyInjection.Unity", "Vanilla.DependencyInjection\Vanilla.DependencyInjection.Unity.csproj", "{802A265E-E3FF-4FD9-85BC-00B36DE591AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vanilla.DependencyInjection.Default", "Vanilla.DependencyInjection.Default\Vanilla.DependencyInjection.Default.csproj", "{CC50A68F-1EEF-496E-80A0-D841EF929455}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentations", "Documentations", "{E617567C-B2C2-4F5B-A938-61C14C613358}"
+	ProjectSection(SolutionItems) = preProject
+		Overriding the default service provider.md = Overriding the default service provider.md
+		Readme.md = Readme.md
+		Sitecore Dependency Injection Deepdive.md = Sitecore Dependency Injection Deepdive.md
+		Sitecore Dependency Injection Hot or Not.md = Sitecore Dependency Injection Hot or Not.md
+		Sitecore Dependency Injection Performance.md = Sitecore Dependency Injection Performance.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{FCB13BA0-19E4-4E98-8042-182D636B4455}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DependencyInjection", "DependencyInjection", "{882BD6CA-C768-4721-9329-C26FDC3E4431}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code", "Code", "{0237FE20-62DA-47AE-B519-D24D0A4D810A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{DD9A67F5-50BB-4F16-B343-DE721A4F2A89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vanilla.DependencyInjection.Unity.Tests", "Foundation\DependencyInjection\Tests\Vanilla.DependencyInjection.Unity.Tests\Vanilla.DependencyInjection.Unity.Tests.csproj", "{B521880B-356F-45DA-A165-65CB79446F0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{802A265E-E3FF-4FD9-85BC-00B36DE591AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{802A265E-E3FF-4FD9-85BC-00B36DE591AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{802A265E-E3FF-4FD9-85BC-00B36DE591AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{802A265E-E3FF-4FD9-85BC-00B36DE591AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC50A68F-1EEF-496E-80A0-D841EF929455}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC50A68F-1EEF-496E-80A0-D841EF929455}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC50A68F-1EEF-496E-80A0-D841EF929455}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC50A68F-1EEF-496E-80A0-D841EF929455}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B521880B-356F-45DA-A165-65CB79446F0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B521880B-356F-45DA-A165-65CB79446F0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B521880B-356F-45DA-A165-65CB79446F0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B521880B-356F-45DA-A165-65CB79446F0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{802A265E-E3FF-4FD9-85BC-00B36DE591AE} = {0237FE20-62DA-47AE-B519-D24D0A4D810A}
+		{CC50A68F-1EEF-496E-80A0-D841EF929455} = {0237FE20-62DA-47AE-B519-D24D0A4D810A}
+		{882BD6CA-C768-4721-9329-C26FDC3E4431} = {FCB13BA0-19E4-4E98-8042-182D636B4455}
+		{0237FE20-62DA-47AE-B519-D24D0A4D810A} = {882BD6CA-C768-4721-9329-C26FDC3E4431}
+		{DD9A67F5-50BB-4F16-B343-DE721A4F2A89} = {882BD6CA-C768-4721-9329-C26FDC3E4431}
+		{B521880B-356F-45DA-A165-65CB79446F0B} = {DD9A67F5-50BB-4F16-B343-DE721A4F2A89}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C5F6903-B0D0-4631-89D4-31CA57534587}
+	EndGlobalSection
+EndGlobal
